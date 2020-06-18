@@ -114,9 +114,9 @@ P1> ping 10.3.30.4
 ### II. Cas concret ###
 
 - SETUP this in GNS3 :
-  [Setup-Infra](http://git.ynov-bordeaux.com/emmadrd912/CCNA/blob/master/lien/TP3-infrasolo.PNG)
+  [Setup-Infra](https://github.com/emmadrd912/CCNA2/blob/master/lien/TP3-infrasolo.PNG)
 
-- Toutes les configurations sont [ICI](http://git.ynov-bordeaux.com/emmadrd912/CCNA/blob/master/confCisco/confCiscoTP3.md)
+- Toutes les configurations sont [ICI](https://github.com/emmadrd912/CCNA2/blob/master/confCisco/confCiscoTP3.md)
 
 - Tableau d'adressage :
 

@@ -3,7 +3,7 @@
 ### I. Simplest setup ###
 
 - 🌞 mettre en place la topologie : Topologie effectué
-  - [Topologie1](http://git.ynov-bordeaux.com/emmadrd912/CCNA/blob/master/lien/tp2-topologie1.PNG)
+  - [Topologie1](https://github.com/emmadrd912/CCNA2/blob/master/lien/tp2-topologie1.PNG)
 - 🌞 faire communiquer les deux PCs et 🌞 récapituler toutes les étapes (dans le compte-rendu, à l'écrit) quand PC1 exécute ping PC2 pour la première fois
 	 - Ping effectué et réussi entre les deux machines :  
 
@@ -17,7 +17,7 @@ PC-2> ping 10.2.1.1
 ```
 
   - Le protocole utilisé pour le ping est le ICMP. La capture suivante a été executé sur le PC1 qui faisait un ping sur le PC2.
-    - [Wireshark_ICMP](http://git.ynov-bordeaux.com/emmadrd912/CCNA/blob/master/lien/gns3-ping-tp2.PNG)
+    - [Wireshark_ICMP](https://github.com/emmadrd912/CCNA2/blob/master/lien/gns3-ping-tp2.PNG)
   - Affichage de la table ARP :  
 
 ```
@@ -36,7 +36,7 @@ PC-2> show arp
 ### II. More switches ###
 
 - 🌞 mettre en place la topologie ci-dessus : Topologie effectué
-  - [Topologie2](http://git.ynov-bordeaux.com/emmadrd912/CCNA/blob/master/lien/tp2-topologie2.PNG)
+  - [Topologie2](https://github.com/emmadrd912/CCNA2/blob/master/lien/tp2-topologie2.PNG)
 - 🌞 faire communiquer les trois PCs
   - ping du PC1 vers PC2 et PC3 :  
 
@@ -115,7 +115,7 @@ Total Mac Addresses for this criterion: 5
   - Les deux dernières lignes affiche les adresses mac des autres switches avec les ports dont il communique.
 
 - 🐙 en lançant Wireshark sur les liens des switches, il y a des trames CDP qui circulent. Quoi qu'est-ce ?
-  - [Wireshak_CDP](http://git.ynov-bordeaux.com/emmadrd912/CCNA/blob/master/lien/CPD-TP2.PNG)
+  - [Wireshak_CDP](https://github.com/emmadrd912/CCNA2/blob/master/lien/CPD-TP2.PNG)
   - Le CDP permet de voir les autres péripherique connectés, sur la capture wireshark, on peut voir l'adresse mac et le port avec le voisin qui communique avec lui.
 
 #### Mise en évidence du Spanning Tree Protocol ####
@@ -330,7 +330,7 @@ Et0/3               Desg FWD 100       128.4    Shr
 ### III. Isolation ###
 
 - 🌞 mettre en place la topologie ci-dessus avec des VLANs (IP aussi configurée) :  
-   [Topologie3](http://git.ynov-bordeaux.com/emmadrd912/CCNA/blob/master/lien/tp2-topologie3.PNG)
+   [Topologie3](https://github.com/emmadrd912/CCNA2/blob/master/lien/tp2-topologie3.PNG)
 
 ```
 IOU19#show vlan
@@ -374,7 +374,7 @@ host (10.2.3.3) not reachable
 #### 2. Avec trunk ####
 
 - 🌞 mettre en place la topologie ci-dessus :
-  [Topologie4](http://git.ynov-bordeaux.com/emmadrd912/CCNA/blob/master/lien/tp2-topologie4.PNG)
+  [Topologie4](https://github.com/emmadrd912/CCNA2/blob/master/lien/tp2-topologie4.PNG)
   - Configuration du switch1 avec la VLAN 10 et VLAN 20 :  
 
 ```
@@ -443,7 +443,7 @@ No gateway found
 ### IV. Need Perfs ###
 
 - 🌞 mettre en place la topologie ci-dessus
-  [Topologie5](http://git.ynov-bordeaux.com/emmadrd912/CCNA/blob/master/lien/tp2-topologie5.PNG)
+  [Topologie5](https://github.com/emmadrd912/CCNA2/blob/master/lien/tp2-topologie5.PNG)
   - configurer LACP entre SW1 et SW2  
 
 ```

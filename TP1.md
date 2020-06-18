@@ -133,7 +133,7 @@
 
 	;; flags: qr rd ra ad; QUERY: 1, ANSWER: 13, AUTHORITY: 0, ADDITIONAL: 1
 
-	  
+
 
 	;; OPT PSEUDOSECTION:
 
@@ -143,7 +143,7 @@
 
 	;. IN NS
 
-	  
+
 
 	;; ANSWER SECTION:
 
@@ -173,7 +173,7 @@
 
 	. 13741 IN NS c.root-servers.net.
 
-	  
+
 
 	;; Query time: 2 msec
 
@@ -191,7 +191,7 @@
 
 	[emmadrd912@localhost etc]$ dig www.reddit.com
 
-	  
+
 
 	; <<>> DiG 9.11.4-P2-RedHat-9.11.4-17.P2.el8_0.1 <<>> www.reddit.com
 
@@ -203,7 +203,7 @@
 
 	;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 13, ADDITIONAL: 27
 
-	  
+
 
 	;; OPT PSEUDOSECTION:
 
@@ -213,7 +213,7 @@
 
 	;www.reddit.com. IN A
 
-	  
+
 
 	;; ANSWER SECTION:
 
@@ -227,7 +227,7 @@
 
 	reddit.map.fastly.net. 13 IN A 151.101.193.140
 
-	  
+
 
 	;; AUTHORITY SECTION:
 
@@ -257,7 +257,7 @@
 
 	net. 172101 IN NS k.gtld-servers.net.
 
-	  
+
 
 	;; ADDITIONAL SECTION:
 
@@ -313,7 +313,7 @@
 
 	d.gtld-servers.net. 172089 IN AAAA 2001:500:856e::30
 
-	  
+
 
 	;; Query time: 5 msec
 
@@ -353,11 +353,11 @@
 
 ## II. Edit configuration ##
 
-  
+
 
 ### 1. Configuration cartes réseau ###
 
-  
+
 
 - Commande effectuée
 
@@ -381,7 +381,7 @@ ONBOOT=yes
 
 ```
 
-  
+
 
 - Nouvelle carte réseau ajoutée avec IP statique :
 
@@ -403,14 +403,14 @@ DEVICE=enp0s9
 
 ```
 
-  
+
 ### 2. Serveur SSH ###
 
-  
+
 
 - Modification du serveur sur le port 2222 :
 
-  
+
 
 ```
 
@@ -449,12 +449,12 @@ rich rules:
 - Le port tourne maintenant sur le port 2222.
 - Capture wireshark sur la connexion ssh du client au serveur :
 
-[Wireshark capture ici](http://git.ynov-bordeaux.com/emmadrd912/CCNA/blob/master/lien/capture_ssh_client_serveur.pcapng)
+[Wireshark capture ici](https://github.com/emmadrd912/CCNA2/blob/master/lien/capture_ssh_client_serveur.pcapng)
 
 
 ## III. Routage simple ##
 
-  
+
 
 -            +-------+
                    |Outside|
@@ -469,7 +469,7 @@ rich rules:
 +-------+         +--------+         +-------+
 
 
-  
+
 
 - Tableau récapitulatif des IP :
 
@@ -479,7 +479,7 @@ rich rules:
 
 |    vm 2   |        x        | 192.168.215.15  |
 
-  
+
 
 - Configuration de VM1 :
 
@@ -544,11 +544,11 @@ default via 192.168.115.254 dev enp0s3 proto static metric 100
 
 ```
 
-  
+
 
 - Configuration de VM2 :
 
-  
+
 
 ```
 
@@ -580,7 +580,7 @@ valid_lft forever preferred_lft forever
 
 ```
 
-  
+
 
 ```
 
@@ -600,7 +600,7 @@ DEVICE=enp0s3
 
 ```
 
-  
+
 
 ```
 
@@ -614,23 +614,23 @@ default via 192.168.215.254 dev enp0s3 proto static metric 100
 
 ```
 
-  
+
 
 ## IV. Autres applications et métrologie ##
 
-  
+
 
 ## 1. Commandes ##
 
-  
+
 
 - La commande iftop permet d'afficher la liste des connexions réseaux sous forme de bande passante (on voit leur débit).
 
-  
+
 
 ## 2. Cockpit ##
 
-  
+
 
 - Après l'installation, on vérifie le port sur lequel écoute cockpit et on l'ajoute au pare-feu :
 
@@ -646,6 +646,6 @@ LISTEN 0 128 *:9090 *:* users:(("cockpit-ws",pid=6642,fd=3),("systemd",pid=1,fd=
 
 ```
 
-  
+
 
 ### 3. Netdata ###

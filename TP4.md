@@ -142,7 +142,7 @@ guest2.tp4.b2 resolved to 10.5.20.11
   - Pour une connexion en site HTTP ou HTTPS, on peut remarquer que l'adresse de destination devient l'adresse du proxy.
   - La seule différence que j'ai remarqué est que lorsque on lance une requête HTTP, le protocole utilisé est HTTP et firefox va retourner un succes pour cette requête avec les informations de la requête (une section en plus lorsque qu'on clique sur la trame). Alors qu'en HTTPS, le protocole utilisé est le TCP est il n'y pas autant d'informations donnéés que lorsque une requête HTTP.
 
-  - [Firefoxsuccess](http://git.ynov-bordeaux.com/emmadrd912/CCNA/blob/master/lien/httpsuccess.png)
+  - [Firefoxsuccess](https://github.com/emmadrd912/CCNA2/blob/master/lien/httpsuccess.png)
 
 #### Tor Browser ####
 
