@@ -1,4 +1,4 @@
-## TP2 : Network low-level, Switching ##
+## TP3 : Routage INTER-VLAN + mise en situation ##
 
 ### I. Router-on-a-stick ###
 
